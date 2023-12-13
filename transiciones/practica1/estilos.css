@@ -1,0 +1,20 @@
+body{
+    place-content: center;
+    display: grid;
+    min-height: 50vh;
+}
+.pulser{
+    width: 30px;
+    height: 30px;
+    background: #09f;
+    border-radius:100% ; /* si el el ancho y alto son igual usarlo al 100% y quedará redondo */
+    position: relative;
+    transition-duration: 1s;
+
+}
+.pulser:hover{ /* es un estado*/
+ scale:2;  /*escala al doble de tamaño visual*/
+ background-color: purple;
+ box-shadow: 0 0 10px purple;
+}
+

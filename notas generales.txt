@@ -1,0 +1,3 @@
+en css existen dos maneras de animar elementos
+transiciones y las animaciones
+
