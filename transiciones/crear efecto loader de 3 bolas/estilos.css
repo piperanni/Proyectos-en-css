@@ -1,17 +1,42 @@
-body{
-    box-sizing: border-box;
-    margin: 0;
-    
+body {
+  box-sizing: border-box;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
 }
-.misection{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.misection {
+  border: 2px solid black;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.mispan{
-    width: 30px;
-    height: 30px;
-    background-color: blue;
-    border-radius: 100%;
-    box-shadow:5px solid blueviolet ;
+.misection:hover .grupodiv > .midiv {
+  opacity: 1;
 }
+.midiv {
+  width: 30px;
+  height: 30px;
+  background-color: blue;
+  border-radius: 100%;
+  opacity: 0;
+  transition-duration: 1s;
+  transition-timing-function:ease;
+}
+.grupodiv {
+  display: flex;
+}
+
+.grupodiv :first-child {
+  transition-delay: 0s;
+}
+.grupodiv :nth-child(2) {
+  transition-delay: 125ms;
+}
+.grupodiv :nth-child(3) {
+    transition-delay: 250ms;
+  }
