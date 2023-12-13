@@ -1,0 +1,9 @@
+ver practica 2 para entender.
+
+    /*transition-property: all; /* hace la transicion de todas la propiedades*/
+    transition-property:scale, background-color; /*se espeficica la que solo haga la transicion de un segundo a esas propiedades*/
+
+
+NOTA: usar muchas propiedades para hacer una transicion
+puede causar problemas de rendimiento.
+

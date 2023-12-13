@@ -1,0 +1,1 @@
+propiedad que permite establecer un valor en ms o s de cuánto debe esperar la animación para comenzar

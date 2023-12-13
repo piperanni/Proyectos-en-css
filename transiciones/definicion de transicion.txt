@@ -1,0 +1,18 @@
+
+ver practica3
+
+se entiende como la capacidad de aplicar propiedades o acciones a un elemento html para que se apliquen cada vez que se cambia de estado., define el comportamiento entre cambios de estados.
+
+un hover seria un cambio de estado puesto que el elemento cambia al pasar el mause sobre el.
+
+
+se aplica generalmente en las propiedades del estado inicial
+
+mediante 
+transition- ....
+
+ej:
+ transition-duration: 2s
+
+-------------------------------
+personalizar la cantidad de propiedades que se quieren animar

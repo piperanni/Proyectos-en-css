@@ -1,0 +1,7 @@
+ver practica 3
+
+se utiliza para personalizar el ritmo de la transicion
+
+es decir personalizar distintas velocidades de inicio, durante y al final de una transision.
+
+transition-timing-function: ;

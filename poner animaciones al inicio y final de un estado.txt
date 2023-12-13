@@ -1,0 +1,18 @@
+se puede hacer que al inicio del cambio de estado haga una animación y al finalizar el cambio de estado haga otra animación.
+
+para eso se debe poner en la clase las animaciones que irán al final
+
+y en el pseudo elemento por ejemplo un Jover poner 
+las animaciones que irán al principio.
+
+accesibilidad: 
+
+desactivar las animaciones mediante mediaquery
+
+@media ( prefers-reduced-motion:reduce){
+.nombreClase{
+     transition:none;
+}
+}
+
+existen estándar para accesibilidad 
