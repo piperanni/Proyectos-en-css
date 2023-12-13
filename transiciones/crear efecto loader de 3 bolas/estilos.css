@@ -3,3 +3,15 @@ body{
     margin: 0;
     
 }
+.misection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mispan{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 100%;
+    box-shadow:5px solid blueviolet ;
+}
