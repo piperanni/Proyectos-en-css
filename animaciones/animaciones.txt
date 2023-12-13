@@ -1,0 +1,36 @@
+para crear animaciones se deben realizar dos pasos
+
+1.- crear las animaciones
+
+/* crecion de las animaciones*/
+@keyframes pulser{
+    0%{
+        
+        opacity: 0;
+    }
+    50%{
+        scale:1.5;
+        opacity: .4;
+    }
+    100%{
+      opacity: .6;
+    }
+}
+
+
+las animaciones se crean afuera de las clases como si fueran independiente, lo que permite que cualquier clase, elemento, o id pueda llamar a la animacion
+
+2.- llamar a las animaciones por su nombre
+
+
+    /* llamado de las animaciones,atributos de las animaciones: nombre, duracion, aceleracion, repeticion*/
+    animation-name: pulser;
+    animation-duration:2000ms;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    
+}
+
+las animaciones se llaman en la clase, elemento o id que lo requiera.
+
+
